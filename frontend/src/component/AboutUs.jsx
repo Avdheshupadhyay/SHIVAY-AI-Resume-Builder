@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
+import {Link} from "react-router-dom";
 const teamMembers = [
   {
     name: "Avdhesh upadhyay",
@@ -23,8 +24,11 @@ const teamMembers = [
 
 const AboutUs = () => {
   const handleclick = (member) => {
-    window.location.href = member.github;
-  }
+    if (member.github) {
+      window.open(member.github, "_blank");
+    }
+  };
+  
   return (
     <div className="about-us-section">
       <h2>About Us</h2>
