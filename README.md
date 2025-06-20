@@ -1,74 +1,116 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 📝 Resume Builder App 💼 (MERN Stack | Group Project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack **Resume Builder** web app made using the **MERN Stack**, where users can create, customize, and download professional resumes in a few clicks.  
+This was developed as a **collaborative team project**, with individual responsibilities divided across frontend and backend.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 👥 Project Type
 
-### `npm start`
+> 👨‍💻 **Team Project** using MERN Stack  
+> 🧑‍🎨 **Your Role**: Frontend Developer – UI design, page structure, form handling, state management, and template rendering
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔗 Live Link (optional)
 
-### `npm test`
+> _Add Vercel / Netlify / Render link here if hosted_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📸 Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> _Add 1–2 preview images showing the resume builder interface & output template_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Key Features
 
-### `npm run eject`
+- 📝 Multi-step resume form  
+- 🎨 Pre-designed resume templates  
+- 📄 Live preview of resume  
+- 📥 Download as PDF  
+- 🔐 User authentication (Register/Login)  
+- 🧠 Data stored securely in MongoDB  
+- 🌈 Responsive and mobile-friendly UI
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧰 Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Frontend  
+- ⚛️ **React.js**  
+- 💅 CSS3 / Tailwind / Bootstrap  
+- 📦 Axios  
+- 📁 React Router  
+- 🗃️ React Context API / useState / useEffect  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Backend  
+- 🟢 **Node.js**  
+- 🚂 Express.js  
+- 🗄️ MongoDB with Mongoose  
+- 🔐 JWT Authentication  
+- 📃 Multer / PDFKit (if used for downloads)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📁 Folder Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+📁 resume-builder/
+├── client/     # React frontend
+│   └── src/
+│       └── components/
+│       └── pages/
+│       └── App.jsx
+├── server/     # Express backend
+│   └── models/
+│   └── routes/
+│   └── controllers/
+│   └── index.js
+└── README.md
+🧑‍💻 How to Run Locally
+1. Clone the repository
+bash
+Copy code
+git clone https://github.com/Avdheshupadhyay/SHIVAY-AI-Resume-Builder.git
+cd resume-builder
+2. Run Frontend
+bash
+Copy code
+cd client
+npm install
+npm start
+3. Run Backend
+bash
+Copy code
+cd server
+npm install
+npm run dev
+Frontend runs at: http://localhost:3000
+Backend runs at: http://localhost:5000
 
-### Code Splitting
+🤝 Team Members & Contributions
+Name	Role
+Avdhesh Upadhyay	Frontend Developer
+Teammate 1	Backend Developer
+Teammate 2	UI/UX & Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+(Add or update actual team member names/roles)
 
-### Analyzing the Bundle Size
+🙋‍♂️ Author
+Project role: Frontend Developer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 Avdhesh Upadhyay
 
-### Making a Progressive Web App
+📧 avdheshupadhyay34@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🔗 LinkedIn
 
-### Advanced Configuration
+📄 License
+This project is licensed under the MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+⭐ Like this project?
+If this helped you or inspired you, do ⭐ star the repo and share with others!
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# SHIVAY-AI-Resume-Builder
->>>>>>> bc296b7dd74c0720751f70c00a89bb8489b8b8b0
